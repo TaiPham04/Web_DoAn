@@ -450,6 +450,14 @@ html{
   color: #ff4081;
 }
 
+.credit {
+  border-top: 1px solid #ccc;
+  background-color: #fefafa;
+  text-align: center;
+  padding: 12px 0;
+  font-size: 14px;
+  color: #777;
+}
 
 @media only screen and (max-width: 767px) {
 
@@ -688,6 +696,11 @@ img {
 
   .row-footer a:hover {
     color: #e91e63;
+  }
+
+  .credit p {
+    font-size: 12px;
+    padding: 10px;
   }
 }
 

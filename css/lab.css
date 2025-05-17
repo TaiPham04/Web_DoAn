@@ -363,6 +363,15 @@ html{
     cursor: pointer;
 }
 
+.credit {
+  border-top: 1px solid #ccc;
+  background-color: #fefafa;
+  text-align: center;
+  padding: 12px 0;
+  font-size: 14px;
+  color: #777;
+}
+
 /* Reponsive */
 /* ----------- Laptop ----------- */
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
@@ -526,6 +535,11 @@ html{
 .lab-container {
     grid-template-columns: 1fr;
 }
+
+.credit p {
+    font-size: 12px;
+    padding: 10px;
+  }
 }
 
  
